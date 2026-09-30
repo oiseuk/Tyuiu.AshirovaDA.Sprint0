@@ -1,0 +1,15 @@
+﻿using Tyuiu.AshirovaDA.Sprint0.Task2.V0.Lib;
+
+namespace Tyuiu.AshirovaDA.Sprint0.Task2.V0
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //Вызов класса DataService и метода GetMessage
+            //из библиотеки Tyuiu.AshirovaDA.Sprint0.Task2.V0.lib
+            Console.WriteLine(DataService.GetMessage("Диана"));
+            Console.ReadKey();
+        }
+    }
+}
